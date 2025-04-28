@@ -1,0 +1,12 @@
+Vlad
+Bughalter
+2020
+30000
+Denys
+programmer
+2018
+100000
+Mykola
+worker
+2015
+10000
