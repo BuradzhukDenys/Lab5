@@ -1,10 +1,5 @@
 Name: zxc
 Position in work:asd
-Year of employment: 123
-Salary: 987
-
-Name: oiu
-Position in work:lkj
-Year of employment: 453
-Salary: 675
+Year of employment: 2020
+Salary: 123
 
