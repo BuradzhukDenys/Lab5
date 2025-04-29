@@ -59,7 +59,10 @@ public:
             for (int i = 0; i < size && !inFile.eof(); i++)
             {
                 Worker temp;
-                inFile >> temp;
+                inFile >> temp.name;
+                inFile >> temp.workPosition;
+                inFile >> temp.year;
+                inFile >> temp.salary;
                 if (inFile.fail() && !inFile.eof()) throw runtime_error("");
 
                 workers[i] = temp;
@@ -127,6 +130,7 @@ int main()
         cin >> workers[i];
     }
     Worker::saveToFile(workers, n, "outFile");
+    cout << "Data from array are saved to file: 'outFile'" << endl;
 
     delete[] workers;
 
@@ -135,6 +139,7 @@ int main()
     workers = new Worker[n];
 
     Worker::loadFromFile(workers, n, "inFile");
+    cout << "Data from file: 'inFile' are loaded" << endl;
 
     for (int i = 0; i < n; i++)
     {

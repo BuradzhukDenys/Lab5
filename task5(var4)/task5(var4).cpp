@@ -28,6 +28,13 @@ int main()
         return 1;
     }
 
+    cout << "List: ";
+    for (double num : numbers)
+    {
+        cout << num << " ";
+    }
+    cout << endl;
+
     numbers.sort();
     numbers.reverse();
 
@@ -41,7 +48,7 @@ int main()
     }
     double avarage = sum / 10;
 
-    cout << "List: ";
+    cout << "Sorted list: ";
     for (double num : numbers)
     {
         cout << num << " ";

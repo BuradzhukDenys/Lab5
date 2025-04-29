@@ -1,5 +1,10 @@
 Name: zxc
 Position in work:asd
 Year of employment: 2020
-Salary: 123
+Salary: 10000
+
+Name: qwe
+Position in work:rfv
+Year of employment: 2015
+Salary: 500
 

@@ -338,6 +338,7 @@ int main()
 		for (int i = 0; i < size; i++)
 		{
 			Matrix::saveToFile(matrices[i], "OutFile");
+			cout << "Data from array are saved to file: 'outFile'" << endl;
 		}
 	}
 	catch (const exception& e)
@@ -349,6 +350,7 @@ int main()
 	try
 	{
 		Matrix matrix = Matrix::loadFromFile("inFile");
+		cout << "Data from file: 'inFile' are loaded" << endl;
 		cout << matrix << endl;
 	}
 	catch (const exception& e)
